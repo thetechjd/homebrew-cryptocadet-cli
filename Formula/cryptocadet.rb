@@ -6,22 +6,22 @@
 # tap "thetechjd/cryptocadet-cli" and:
 #   brew install thetechjd/cryptocadet-cli/cryptocadet
 #
-# Filled for v0.1.0 (version + sha256s from dist/bin/SHA256SUMS). At the next release, bump the
+# Filled for v0.1.2 (version + sha256s from dist/bin/SHA256SUMS). At the next release, bump the
 # version, each url's vX.Y.Z segment, and each sha256 (the release workflow does this automatically).
 # The self-contained binary embeds Node 24 — no node, npm, or node_modules dependency here.
 class Cryptocadet < Formula
   desc "USDC payment rails for agents on Base"
   homepage "https://cryptocadet.app"
-  version "0.1.0"
+  version "0.1.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/thetechjd/cryptocadet-cli/releases/download/v0.1.0/cryptocadet-macos-arm64.tar.gz"
-      sha256 "70906d93e86010d0ac9845b0ba6b4400068deb3586b481992a068e6b2bb66488"
+      url "https://github.com/thetechjd/cryptocadet-cli/releases/download/v0.1.2/cryptocadet-macos-arm64.tar.gz"
+      sha256 "a5dce36f30fc0d2e2607c965f1abbc770b1ca5675110b3c15c336ef7ba557eb7"
     end
     on_intel do
-      url "https://github.com/thetechjd/cryptocadet-cli/releases/download/v0.1.0/cryptocadet-macos-x64.tar.gz"
-      sha256 "62536a065ed41bbf208317149ff530eb350722ca9410f1875ab57b6f3be7f740"
+      url "https://github.com/thetechjd/cryptocadet-cli/releases/download/v0.1.2/cryptocadet-macos-x64.tar.gz"
+      sha256 "521fe15d666bdda54ff8ecf3239e4b3c5cb255b34fff35fecbc4ece72ab84ae4"
     end
   end
 
@@ -29,12 +29,12 @@ class Cryptocadet < Formula
   # documented Linux path is the curl installer; Homebrew-on-Linux users can use this instead.
   # on_linux do
   #   on_arm do
-  #     url "https://github.com/thetechjd/cryptocadet-cli/releases/download/v0.1.0/cryptocadet-linux-arm64.tar.gz"
-  #     sha256 "cb334c371dc8f87c86fe0e2e4198e2a365412f9a73963192243489759624b241"
+  #     url "https://github.com/thetechjd/cryptocadet-cli/releases/download/v0.1.2/cryptocadet-linux-arm64.tar.gz"
+  #     sha256 "062c1eae8f667dbef64bf6730382e9ab1b1de9b892862908bd32aa19ad146c58"
   #   end
   #   on_intel do
-  #     url "https://github.com/thetechjd/cryptocadet-cli/releases/download/v0.1.0/cryptocadet-linux-x64.tar.gz"
-  #     sha256 "450a1069fd0bb7d81672d0ebddb1dd084f44e14c453eecb3a5542328ec9cd1de"
+  #     url "https://github.com/thetechjd/cryptocadet-cli/releases/download/v0.1.2/cryptocadet-linux-x64.tar.gz"
+  #     sha256 "98268dba42b302613b41bc731b1c95060cbbf4f9e2261e97c01ebefdaf9d9683"
   #   end
   # end
 
