@@ -17,7 +17,7 @@
 class Cryptocadet < Formula
   desc "USDC payment rails for agents on Base"
   homepage "https://cryptocadet.app"
-  url "https://registry.npmjs.org/@cryptocadet/cli/-/cli-0.4.0.tgz"
+  url "https://registry.npmjs.org/@cryptocadet/cli/-/cli-0.5.0.tgz"
   sha256 ""
   license :cannot_represent # package is UNLICENSED; update when a license is chosen
 
